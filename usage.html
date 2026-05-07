@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LevelForge Usage Guide</title>
+  <meta name="description" content="Basic setup and usage guide for LevelForge.">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">LevelForge Usage Guide</h1>
+      <p class="site-subtitle">Basic setup and usage after inviting LevelForge to your Discord server.</p>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="./index.html">Home</a>
+        <a href="./privacy.html">Privacy (EN)</a>
+        <a href="./terms.html">Terms (EN)</a>
+        <a href="./privacy-de.html">Datenschutz (DE)</a>
+        <a href="./terms-de.html">Nutzungsbedingungen (DE)</a>
+        <a class="active" href="./usage.html">Usage Guide</a>
+        <a href="./usage-de.html">Anleitung (DE)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="card">
+      <h2>1. Invite the Bot</h2>
+      <ol>
+        <li>Open the official LevelForge invite link.</li>
+        <li>Select your Discord server.</li>
+        <li>Confirm the required permissions.</li>
+        <li>Finish the Discord authorization flow.</li>
+      </ol>
+      <ul>
+        <li>Official invite link: <a href="https://discord.com/oauth2/authorize?client_id=1501623866257051780">Add LevelForge</a></li>
+      </ul>
+
+      <h2>2. Check Bot Permissions</h2>
+      <p>After inviting LevelForge, verify that it can:</p>
+      <ul>
+        <li>Read messages in channels where XP should be tracked</li>
+        <li>Send messages in channels where level-up or status messages should appear</li>
+        <li>Use slash commands</li>
+      </ul>
+      <p>If commands are missing, check Discord role permissions and channel overrides.</p>
+
+      <h2>3. Run Basic Setup</h2>
+      <p>Use the bot commands to configure your server:</p>
+      <ul>
+        <li>Set XP values per message</li>
+        <li>Set cooldown to prevent spam farming</li>
+        <li>Define level-up channel</li>
+        <li>Configure ignored channels and ignored categories</li>
+      </ul>
+      <p>If your server has many channels, start by setting ignore rules first.</p>
+
+      <h2>4. How XP and Levels Work</h2>
+      <p>In normal operation:</p>
+      <ul>
+        <li>Users receive XP for valid activity</li>
+        <li>Cooldowns reduce abuse/spam XP farming</li>
+        <li>Levels are calculated from stored XP</li>
+        <li>Leaderboards are server-specific</li>
+      </ul>
+      <p>LevelForge separates data by server (<code>guild_id</code>) so one server does not affect another.</p>
+
+      <h2>5. Admin Actions</h2>
+      <p>Server admins can typically:</p>
+      <ul>
+        <li>Adjust user XP</li>
+        <li>Review level/rank data</li>
+        <li>Tune configuration values</li>
+      </ul>
+      <p>Use admin actions carefully and document major changes for your mod team.</p>
+
+      <h2>6. Premium / Plan Notes</h2>
+      <p>LevelForge may include plan states such as <code>FREE</code>, <code>VIP</code>, <code>TESTER</code>, or <code>LIFETIME</code>.</p>
+      <ul>
+        <li>Payment is not implemented yet.</li>
+        <li>Premium-related behavior can be added later.</li>
+        <li>Limits and feature access may depend on plan status.</li>
+      </ul>
+
+      <h2>7. Troubleshooting</h2>
+      <p>If something does not work:</p>
+      <ol>
+        <li>Re-check bot permissions and channel overrides.</li>
+        <li>Verify command permissions for your role.</li>
+        <li>Confirm cooldown/settings are not too strict.</li>
+        <li>Test in a dedicated channel.</li>
+        <li>Contact support.</li>
+      </ol>
+      <ul>
+        <li>TODO: Support Discord URL (for example: <code>https://discord.gg/NsVbrUpM</code>)</li>
+        <li>TODO: Support contact e-mail</li>
+      </ul>
+
+      <h2>8. Quick Checklist</h2>
+      <ul>
+        <li>Bot invited successfully</li>
+        <li>Required permissions granted</li>
+        <li>XP/cooldown configured</li>
+        <li>Level-up channel configured</li>
+        <li>Ignore rules configured</li>
+        <li>Basic command test successful</li>
+      </ul>
+      <p class="muted">Last updated: 2026-05-07</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>LevelForge Legal pages. This site is informational and not legal advice.</p>
+    </div>
+  </footer>
+</body>
+</html>
