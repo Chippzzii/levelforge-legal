@@ -1,0 +1,6 @@
+title: LevelForge Legal
+description: Terms of Service and Privacy Policy for LevelForge
+
+remote_theme: pages-themes/dinky@v0.2.0
+plugins:
+  - jekyll-remote-theme
