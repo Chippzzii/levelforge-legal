@@ -8,10 +8,13 @@ LevelForge is a lightweight Discord leveling bot for XP, ranks, leaderboards and
 - [Terms of Service](./terms)
 - [Datenschutzerklärung](./privacy-de)
 - [Nutzungsbedingungen](./terms-de)
+- [Usage Guide](./usage)
+- [Anleitung (Deutsch)](./usage-de)
 
 ## Support
 
-- TODO: Discord Support Server URL
+- Official Invite Link: [Add LevelForge](https://discord.com/oauth2/authorize?client_id=1501623866257051780)
+- TODO: Support Discord URL (for example: `https://discord.gg/TODO`)
 - TODO: Contact E-Mail
 
 Last updated: 2026-05-07
