@@ -1,14 +1,15 @@
-# LevelForge Legal
+# levelforge-legal
 
-This repository contains the legal pages for LevelForge (GitHub Pages).
+This repository provides public legal and informational pages for LevelForge via GitHub Pages.
 
-## Live Pages
+## Pages
 
-- Main page (language selection): `https://Chippzzii.github.io/levelforge-legal/`
-- English: `https://Chippzzii.github.io/levelforge-legal/en.html`
-- Deutsch: `https://Chippzzii.github.io/levelforge-legal/de.html`
+- Website / Startseite: [https://chippzzii.github.io/levelforge-legal/](https://chippzzii.github.io/levelforge-legal/)
+- Privacy Policy: [https://chippzzii.github.io/levelforge-legal/privacy](https://chippzzii.github.io/levelforge-legal/privacy)
+- Terms of Service: [https://chippzzii.github.io/levelforge-legal/terms](https://chippzzii.github.io/levelforge-legal/terms)
+- Datenschutzerklärung: [https://chippzzii.github.io/levelforge-legal/privacy-de](https://chippzzii.github.io/levelforge-legal/privacy-de)
+- Nutzungsbedingungen: [https://chippzzii.github.io/levelforge-legal/terms-de](https://chippzzii.github.io/levelforge-legal/terms-de)
 
-## Notes
+This repository only contains legal and informational pages for LevelForge.
 
-- Edit `index.md`, `en.md`, and `de.md` to update legal content.
-- Replace `SUPPORT_CHANNEL_LINK_HERE` in the language files with your real support link.
+No bot source code is stored in this repository.
